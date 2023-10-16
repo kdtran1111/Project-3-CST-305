@@ -23,7 +23,7 @@ plt.plot(x, y1, label="ODE 1")
 plt.plot(x, y2, label="ODE 2", linestyle='--')
 
 # Setting the title and labels
-plt.title("Plot of the given functions")
+plt.title("Plot of the ODE result")
 plt.xlabel("x")
 plt.ylabel("y")
 plt.legend()
@@ -47,7 +47,7 @@ plt.plot(t, y1, label='ODE 1 Green')
 plt.plot(t, y2, label='ODE 2 Green')
 
 # Set title and labels
-plt.title('Plot of the given functions')
+plt.title('Plot the ODE result from Green's function')
 plt.xlabel('t')
 plt.ylabel('y')
 
