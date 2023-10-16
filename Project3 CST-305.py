@@ -47,7 +47,7 @@ plt.plot(t, y1, label='ODE 1 Green')
 plt.plot(t, y2, label='ODE 2 Green')
 
 # Set title and labels
-plt.title('Plot the ODE result from Green's function')
+plt.title('Plot the ODE result from Greens function')
 plt.xlabel('t')
 plt.ylabel('y')
 
